@@ -15,51 +15,50 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="14" />
+          <entry key="py" value="15" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="14" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5261" />
+          <entry key="py" value="6349" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5261" />
+          <entry key="Python" value="6349" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ex17.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="105" column="101" selection-start-line="105" selection-start-column="101" selection-end-line="105" selection-end-column="101" />
+            <state relative-caret-position="439">
+              <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1555569439011" expanded="true" signature="92:308" ph="..." />
-                <marker date="1555569439011" expanded="true" signature="431:1813" ph="..." />
-                <marker date="1555569439011" expanded="true" signature="589:703" ph="..." />
-                <marker date="1555569439011" expanded="true" signature="872:1811" ph="..." />
-                <marker date="1555569439011" expanded="true" signature="1252:1811" ph="..." />
-                <marker date="1555569439011" expanded="true" signature="1836:1838" ph="..." />
+                <marker date="1555673130839" expanded="true" signature="92:308" ph="..." />
+                <marker date="1555673130839" expanded="true" signature="431:1813" ph="..." />
+                <marker date="1555673130839" expanded="true" signature="589:703" ph="..." />
+                <marker date="1555673130839" expanded="true" signature="3566:4625" ph="..." />
               </folding>
             </state>
           </provider>
@@ -94,8 +93,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1955" />
-    <option name="y" value="307" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1167" />
     <option name="height" value="762" />
   </component>
@@ -105,6 +104,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,7 +116,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,14 +270,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11801897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.2567714" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.3618635" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -322,20 +322,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://C:/01_Etteplan_Files/ABB/04_Results/03/14_NIGHTLY/Test_PANEL1_A---6f7e0233/generate_report.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://C:/Program Files/Python37/Lib/site-packages/bs4/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -344,13 +335,6 @@
           <folding>
             <element signature="e#841#850#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python37/Lib/site-packages/bs4/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="1619" selection-start-line="1619" selection-end-line="1619" />
         </state>
       </provider>
     </entry>
@@ -368,18 +352,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="1619" selection-start-line="1619" selection-end-line="1619" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ex17.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="105" column="101" selection-start-line="105" selection-start-column="101" selection-end-line="105" selection-end-column="101" />
+        <state relative-caret-position="439">
+          <caret line="192" lean-forward="true" selection-start-line="192" selection-end-line="192" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1555569439011" expanded="true" signature="92:308" ph="..." />
-            <marker date="1555569439011" expanded="true" signature="431:1813" ph="..." />
-            <marker date="1555569439011" expanded="true" signature="589:703" ph="..." />
-            <marker date="1555569439011" expanded="true" signature="872:1811" ph="..." />
-            <marker date="1555569439011" expanded="true" signature="1252:1811" ph="..." />
-            <marker date="1555569439011" expanded="true" signature="1836:1838" ph="..." />
+            <marker date="1555673130839" expanded="true" signature="92:308" ph="..." />
+            <marker date="1555673130839" expanded="true" signature="431:1813" ph="..." />
+            <marker date="1555673130839" expanded="true" signature="589:703" ph="..." />
+            <marker date="1555673130839" expanded="true" signature="3566:4625" ph="..." />
           </folding>
         </state>
       </provider>

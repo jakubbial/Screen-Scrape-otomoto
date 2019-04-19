@@ -129,12 +129,65 @@ def list_cars(site_nr):
     return cars_all
 
 
+def get_cars_soup(sub_site_number):
+    sub_page_soup = generate_soup(str(sub_site_number))
+    cars_on_si = sub_page_soup.find_all("article", "adListingItem")
+    return cars_on_si
+
+
+def list_parameters(car_soup):
+    adv_params = []
+
+    name = car_soup.find_all("a", "offer-title__link")
+    name = name[0].text.replace(" ", "")
+    name = name.replace("\n", "")
+    adv_params.append(name)
+
+    price = car_soup.find_all("span", "offer-price__number")
+    price = price[0].text.replace("                    PLN", "")
+    price = price.replace("\n", "")
+    price = price.replace(" ", "")
+    adv_params.append(price)
+
+    params = car_soup.find_all("li", "offer-item__params-item")
+
+    try:
+        year = params[0].text.replace("\n", "")
+        adv_params.append(year)
+    except:
+        adv_params.append("No year")
+
+    try:
+        mileage = params[1].text.replace("\n", "")
+        adv_params.append(mileage)
+    except:
+        adv_params.append("No mileage")
+
+    try:
+        engine_cap = params[2].text.replace("\n", "")
+        adv_params.append(engine_cap)
+    except:
+        adv_params.append("No engine cap")
+
+    try:
+        fuel = params[3].text.replace("\n", "")
+        adv_params.append(fuel)
+    except:
+        adv_params.append("No fuel")
+
+    return adv_params
+
 
 link = "https://www.otomoto.pl/osobowe/?search%5Bnew_used%5D=on"
-site_nr = 2
+all_pages = int(get_number_of_sites(link))
 
-number_of_pages = get_number_of_sites(link)
-# print(number_of_pages)
+all_cars = []
 
-for i in range(1, 10):
-    list_cars(i)
+for i in range(1, all_pages):
+    auta = get_cars_soup(i)
+
+    for j in range (0, len(auta)):
+        all_cars.append(list_parameters(auta[j]))
+
+    print(len(all_cars))
+
