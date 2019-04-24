@@ -178,16 +178,16 @@ def list_parameters(car_soup):
     return adv_params
 
 
-link = "https://www.otomoto.pl/osobowe/?search%5Bnew_used%5D=on"
-all_pages = int(get_number_of_sites(link))
-
-all_cars = []
-
-for i in range(1, all_pages):
-    auta = get_cars_soup(i)
-
-    for j in range (0, len(auta)):
-        all_cars.append(list_parameters(auta[j]))
-
-    print(len(all_cars))
+# link = "https://www.otomoto.pl/osobowe/?search%5Bnew_used%5D=on"
+# all_pages = int(get_number_of_sites(link))
+#
+# all_cars = []
+#
+# for i in range(1, all_pages):
+#     auta = get_cars_soup(i)
+#
+#     for j in range (0, len(auta)):
+#         all_cars.append(list_parameters(auta[j]))
+#
+#     print(len(all_cars))
 
